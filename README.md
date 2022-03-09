@@ -1,14 +1,23 @@
 # COMP 250 Introduction to Computer Science Fall 2019
 Algorithm designs coursework in Java at McGill University.
 
-## **Project 1** - A Simple Shell
-In this project a shell interface is implemented that accepts user commands and executes each command in a separate process. The shell program provides a command prompt, where the user inputs a line of command. The shell is responsible for executing the command. The shell program assumes that the first string of the line gives the name of the executable file. The remaining strings in the line are considered as arguments for the command.
+## **Project 1** - Construct Simple Civilization-inspired Strategy Game Using OOP
+In this project, several classes ae written to build a very simplified version of a Civilization-inspired strategy game. By using the concepts from **OOP**, such as **super classes, override and overwrite**, this project is implemented in an efficient way.
 
-## **Project 2** - A Simple User-Level Thread Scheduler
-In this project, a simple many-to-many user-level threading library with a simple first come first serve (FCFS) thread scheduler is designed and implemented. The threading library will have two types of executors – the executors are kernel-level threads that run the user-level threads. One type of executor is dedicated to running compute tasks and the other type of executors is dedicated for input-output tasks. Furthermore, this library supports two user-level threads executors work at the same time.
+## **Project 2** - MyBigInteger Class
+In this project, we will work with arithmetic operations on large positive integers. Although Java has its own BigInteger class, we are going to build our own classes, namely MyBigInteger. The MyBigInteger class has two fields: base and coefficients. The base field is an int with values in {2, 3, …, 10}. We could have allowed for larger bases but that would have required using special symbols for the numbers greater than 1. In this project, we focus on developing three functions, they are:
 
-## **Project 3** - A Mountable Simple File System
-In this project, a simple file system (SFS) that can be mounted by the user under a directory in the user’s machine is designed and implemented.The SFS is only working only in Linux. The SFS introduces many limitations such as restricted filename lengths, no user concept, no protection among files, no support for concurrent access, etc. Furthermore, FUSE also works properly.
+- **dividedBy** (part division)
+- **convert** (base conversion)
+- **primeFactors**
 
-## **Project 4** - A Mountable Simple File System
-In this project, a simple file system (SFS) that can be mounted by the user under a directory in the user’s machine is designed and implemented.The SFS is only working only in Linux. The SFS introduces many limitations such as restricted filename lengths, no user concept, no protection among files, no support for concurrent access, etc. Furthermore, FUSE also works properly.
+## **Project 3** - A Simple KD-Tree
+In this project, a simple KD-Tree is implemented. The **constructor KDNode** is given an array of Datum objects, and it constructs a KDNode
+object that is the root of a subtree whose leaves contain the given Datum objects. Furthermore, this project also focus on the **KD-TreeIterator** and **finding the nearest node**.
+
+## **Project 4** - A Simple Search Engine
+In this project, a simple search engine is implemented by using the **graph theroy** and **DFS**. This search engine is implemented to have the following features:
+- Crawling and Indexing
+- Ranking
+- Searching
+
