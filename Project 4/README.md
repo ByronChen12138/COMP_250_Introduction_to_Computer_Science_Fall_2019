@@ -1,10 +1,9 @@
 # COMP 250 Project 4 (Fall 2019)
 
 ## Description
-In this project, a simple search engine is implemented by using the **graph theroy** and **DFS**. This search engine is implemented to have the following features:
-- Crawling and Indexing
-- Ranking
-- Searching
+In this project, a simple search engine is implemented with three features, i.e. **Crawling and Indexing**, **Ranking**, and **Searching**.
+**DFS** and **Hashmaps** were used when **Crawling and Indexing** the nodes in the graph created for the websites.
+**Merge Sort** was used when searching for the results.
 
 
 ## Project Structure
